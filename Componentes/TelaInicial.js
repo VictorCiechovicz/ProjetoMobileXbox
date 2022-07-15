@@ -8,7 +8,7 @@ import imgXcloud from '../assets/xcloud-1.png'
 
 import estilos from './estilos'
 
-export default function telaInicial(props) {
+export default function TelaInicial(props) {
   return (
     <View style={estilos.fundoinicial}>
       <Image source={Logo} style={estilos.imglogo} />

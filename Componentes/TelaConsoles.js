@@ -6,10 +6,10 @@ import Console2 from '../assets/console-2.png'
 
 import estilos from './estilos'
 
-export default function telaConsoles() {
+export default function TelaConsoles() {
   return (
-    <ScrollView>
-      <View style={estilos.fundoconsoles}>
+    <ScrollView style={estilos.fundoconsoles}>
+      <View style={estilos.boxconsoles}>
         <Image style={estilos.imgconsoles} source={Console1} />
         <Text style={estilos.tituloconsoles}>XBOX SERIES S</Text>
         <Text style={estilos.paragrafo1consoles}>
@@ -22,7 +22,7 @@ export default function telaConsoles() {
         </Text>
       </View>
 
-      <View>
+      <View style={estilos.boxconsoles}>
         <Image style={estilos.imgconsoles} source={Console2} />
         <Text style={estilos.tituloconsoles}>BOX SERIES X</Text>
         <Text style={estilos.paragrafo1consoles}>

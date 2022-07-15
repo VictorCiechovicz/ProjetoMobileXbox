@@ -1,5 +1,5 @@
 import React from 'react'
-import {  ImageBackground, ScrollView, Text, View } from 'react-native'
+import { ImageBackground, ScrollView, Text, View } from 'react-native'
 
 import Jogo1 from '../assets/jogo-1.png'
 import Jogo2 from '../assets/jogo-2.png'
@@ -7,7 +7,7 @@ import Jogo3 from '../assets/jogo-3.png'
 
 import estilos from './estilos'
 
-export default function telaJogos() {
+export default function TelaJogos() {
   return (
     <ScrollView>
       <View style={estilos.fundojogos}>
@@ -16,7 +16,7 @@ export default function telaJogos() {
           Os principais jogos estão aqui. Veja abaixo três exemplos de grande
           sucesso.
         </Text>
-        <View>
+        <View style={estilos.boxJogo}>
           <ImageBackground source={Jogo1} style={estilos.imgjogos}>
             <Text style={estilos.tituloimgjogos}>Forza Horizon 5</Text>
           </ImageBackground>
@@ -26,7 +26,7 @@ export default function telaJogos() {
             jogo se passa em uma representação ficcional do México.
           </Text>
         </View>
-        <View>
+        <View style={estilos.boxJogo}>
           <ImageBackground source={Jogo2} style={estilos.imgjogos}>
             <Text style={estilos.tituloimgjogos}>Cyberpunk 2077</Text>
           </ImageBackground>
@@ -35,7 +35,7 @@ export default function telaJogos() {
             publicado pela CD Projekt.
           </Text>
         </View>
-        <View>
+        <View style={estilos.boxJogo}>
           <ImageBackground source={Jogo3} style={estilos.imgjogos}>
             <Text style={estilos.tituloimgjogos}>Halo 5</Text>
           </ImageBackground>
