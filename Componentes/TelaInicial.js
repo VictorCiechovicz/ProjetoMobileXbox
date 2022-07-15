@@ -1,7 +1,11 @@
 import React from 'react'
-import { Pressable, Text, View } from 'react-native'
+import { Pressable, Text, View, Image } from 'react-native'
 
-import Logo from './assets/logo.png'
+import Logo from '../assets/logo.png'
+import imgConsole from '../assets/console-1.png'
+import imgJogo from '../assets/jogo.png'
+import imgXcloud from '../assets/xcloud-1.png'
+
 import estilos from './estilos'
 
 export default function telaInicial(props) {
@@ -19,21 +23,30 @@ export default function telaInicial(props) {
         onPress={() => {
           props.navigation.navigate('Consoles')
         }}
-      ></Pressable>
+      >
+        <Image source={imgConsole} style={estilos.cardImg} />
+        <Text style={estilos.cardTexto}>Conheça os consoles</Text>
+      </Pressable>
 
       <Pressable
         style={estilos.cards}
         onPress={() => {
           props.navigation.navigate('Jogos')
         }}
-      ></Pressable>
+      >
+        <Image source={imgJogo} style={estilos.cardImg} />
+        <Text style={estilos.cardTexto}>Conheça os jogos</Text>
+      </Pressable>
 
       <Pressable
         style={estilos.cards}
         onPress={() => {
           props.navigation.navigate('Xcloud')
         }}
-      ></Pressable>
+      >
+        <Image source={imgXcloud} style={estilos.cardImg} />
+        <Text style={estilos.cardTexto}>Conheça o xCloud</Text>
+      </Pressable>
     </View>
   )
 }

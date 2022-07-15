@@ -1,8 +1,8 @@
 import React from 'react'
 import { Image, ScrollView, Text, View } from 'react-native'
 
-import Console1 from './assets/console-1-2.png'
-import Console2 from './assets/console-2.png'
+import Console1 from '../assets/console-1-2.png'
+import Console2 from '../assets/console-2.png'
 
 import estilos from './estilos'
 
