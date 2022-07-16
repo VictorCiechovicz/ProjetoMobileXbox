@@ -4,8 +4,8 @@ import { createStackNavigator } from '@react-navigation/stack'
 
 import TelaInicial from './Componentes/TelaInicial/index'
 import TelaConsoles from './Componentes/TelaConsoles/index'
-import TelaJogos from './Componentes/TelaJogos'
-import TelaXcloud from './Componentes/TelaXcloud'
+import TelaJogos from './Componentes/TelaJogos/index'
+import TelaXcloud from './Componentes/TelaXcloud/index'
 
 const Stack = createStackNavigator()
 

@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native'
 const estilos = StyleSheet.create({
   fundo: {
     flex: 1,
-    backgroundColor: '#3F4E4F',
+    backgroundColor: '#94B49F',
     alignItems: 'center'
   },
   img: {
@@ -39,7 +39,8 @@ const estilos = StyleSheet.create({
   },
   cardTexto: {
     fontSize: 20,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    color: '#fff'
   }
 })
 export default estilos

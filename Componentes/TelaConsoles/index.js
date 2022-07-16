@@ -27,9 +27,9 @@ export default function TelaConsoles() {
 
       <View style={estilos.box}>
         <Image style={estilos.img} source={Console2} />
-        <Text style={estilos.titulo}>BOX SERIES X</Text>
+        <Text style={estilos.titulo}>XBOX SERIES X</Text>
         <Text style={estilos.paragrafo}>
-        O Xbox mais rápido e poderoso de todos os tempos.
+          O Xbox mais rápido e poderoso de todos os tempos.
         </Text>
         <Text style={estilos.paragrafo}>
           O Series X é pra quem quer poder absoluto. O console mais poderoso do
