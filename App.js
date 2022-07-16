@@ -2,8 +2,8 @@ import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 
-import TelaInicial from './Componentes/TelaInicial'
-import TelaConsoles from './Componentes/TelaConsoles'
+import TelaInicial from './Componentes/TelaInicial/index'
+import TelaConsoles from './Componentes/TelaConsoles/index'
 import TelaJogos from './Componentes/TelaJogos'
 import TelaXcloud from './Componentes/TelaXcloud'
 

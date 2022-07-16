@@ -1,17 +1,18 @@
 import React from 'react'
 import { Pressable, Text, View, Image } from 'react-native'
 
-import Logo from '../assets/logo.png'
-import imgConsole from '../assets/console-1.png'
-import imgJogo from '../assets/jogo.png'
-import imgXcloud from '../assets/xcloud-1.png'
+import Logo from '../../assets/logo.png'
+import imgConsole from '../../assets/console-1.png'
+import imgJogo from '../../assets/jogo.png'
+import imgXcloud from '../../assets/xcloud-1.png'
 
 import estilos from './estilos'
 
 export default function TelaInicial(props) {
   return (
-    <View style={estilos.fundoinicial}>
-      <Image source={Logo} style={estilos.imglogo} />
+    <View style={estilos.fundo}>
+      <Image source={Logo} style={estilos.img} />
+
       <Text style={estilos.titulo}>Xbox</Text>
       <Text style={estilos.descricao}>
         Xbox é uma marca de consoles criada pela Microsoft. Toque nos cards para

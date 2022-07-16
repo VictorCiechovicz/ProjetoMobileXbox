@@ -1,4 +1,4 @@
-export { StyleSheet } from 'react-native'
+import { StyleSheet } from 'react-native'
 
 const estilos = StyleSheet.create({
   /*==========TELAINICIAL============ */
@@ -41,9 +41,9 @@ const estilos = StyleSheet.create({
   },
   titulojogos: {},
   paragrafojogos: {},
-  boxJogo:{
-    width:250,
-    height:250
+  boxJogo: {
+    width: 250,
+    height: 250
   },
   imgjogos: {
     width: 200,
@@ -53,7 +53,7 @@ const estilos = StyleSheet.create({
   paragrafojogos1: {},
 
   /*==========TELANUVEM============ */
- 
+
   imgfundoxcloud: {
     width: 200,
     height: 200
